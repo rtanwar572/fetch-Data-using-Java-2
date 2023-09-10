@@ -13,7 +13,7 @@ public class Main {
         URL url=null;
         HttpURLConnection connection=null;
         int responseCode=0;
-        String httpUrl=" https://api.nationalize.io/?name=nathaniel";
+        String httpUrl="https://api.chucknorris.io/jokes/random";
 
         try{
             url=new URL(httpUrl);
